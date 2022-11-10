@@ -11,6 +11,14 @@ describe("0001のテスト", () => {
 		expect(index.solution2(data)).toBe("Abc Def Ghi")
 	});
 
+	test("solution3のテスト", () => {
+		expect(index.solution3(data)).toBe("Abc Def Ghi")
+	});
+
+	test("solution4のテスト", () => {
+		expect(index.solution4(data)).toBe("Abc Def Ghi")
+	});
+
 });
 
 
