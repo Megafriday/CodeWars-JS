@@ -6,6 +6,11 @@ const disemvowel1 = (str) => {
 	return str.replace(/[aiueo]/ig, (match) => "");
 };
 
+const disemvowel2 = (str) => {
+	return str.replace(/[aiueo]/ig, "");
+};
+
 module.exports = {
-	disemvowel1
+	disemvowel1,
+	disemvowel2
 };
