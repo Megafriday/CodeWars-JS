@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/515de9ae9dcfc28eb6000001
+
 const data = "abc";			// 目標：["ab", "c_"]
 const data2 = "abcdef"	// 目標：["ab", "cd", "ef"]
 
