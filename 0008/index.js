@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/514a024011ea4fb54200004b
+
 /**
  * @param {string} str 
  */
@@ -44,8 +46,6 @@ function domainName3(str) {
 function domainName4(str) {
 	return str.replace(/.+\/\/|www\.|\..+/g, "");
 }
-
-console.log(domainName("www.xakep.ru"));
 
 module.exports = {
 	domainName,
