@@ -3,17 +3,17 @@
 /**
  * @param {string} string 
  */
-function isPangram(string) {
-	const data = string.toLowerCase().replaceAll(" ", "");
+function isPangram(sentence) {
+	sentence = sentence.toLowerCase().replaceAll(" ", "");
 	for (let i = 97; i <= 122; i++) {
-		if (!data.includes(String.fromCodePoint(i))) return false;
+		if (!sentence.includes(String.fromCodePoint(i))) return false;
 	}
 	return true;
 }
 
-function isPangram1(string) {
+function isPangram1(sentence) {
 	const alpahbetList = "abcdefghijklmnopqrstuvwxyz".split("");
-	return alpahbetList.every((s) => string.toLowerCase().includes(s));
+	return alpahbetList.every((s) => sentence.toLowerCase().includes(s));
 }
 
 
