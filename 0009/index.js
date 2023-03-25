@@ -42,10 +42,6 @@ function toWeirdCase2(sentence) {
 		.replace(/\w{2}/g, val => val[0] + val[1].toLowerCase());
 }
 
-console.log(toWeirdCase2("String"));		//=> returns "StRiNg"
-console.log(toWeirdCase2("Weird string case"));	//=> returns "WeIrD StRiNg CaSe"
-
-
 module.exports = {
 	toWeirdCase,
 	toWeirdCase1,
