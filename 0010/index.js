@@ -15,7 +15,7 @@ function goodVsEvil(good, evil) {
 	const evilValue = evil.split(" ")
 		.reduce((acc, i) => acc + parseInt(i), 0);
 
-	console.dir({ goodValue, evilValue });
+	// console.dir({ goodValue, evilValue });
 
 	if (goodValue > evilValue) return goodResult;
 	if (goodValue < evilValue) return evilResult;
