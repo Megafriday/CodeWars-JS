@@ -24,5 +24,6 @@ console.log(`${data.slice(0, 3)}-${data.slice(3, 7)}-${data.slice(7, 12)}`);
 console.log(`${data.substring(0, 3)}-${data.substring(3, 7)}-${data.substring(7, 12)}`);
 
 // 問題： [56, 83, 105, 222] => [ 28, 111 ]
+// 偶数のみ２で割った値にする
 data = [56, 83, 105, 222];
 console.log(data.filter(i => i % 2 === 0).map(i => i / 2));
