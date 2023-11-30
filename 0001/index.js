@@ -10,12 +10,20 @@ const solution1 = (str) => {
 	return str.replace(/(^|\s)[a-z]/g, s => s.toUpperCase());
 };
 
+/**
+ * 先頭を大文字にする関数
+ * @param {string} str
+ */
+const solution2 = (str) => {
+	return str.replace(/\b\w/g, s => s.toUpperCase());
+};
+
 
 /**
  * 先頭を大文字にする関数
  * @param {string} str 
  */
-const solution2 = (str) => {
+const solution3 = (str) => {
 	return str.split(" ")
 		.map(s => s.charAt(0).toUpperCase() + s.slice(1))
 		.join(" ");
@@ -25,7 +33,7 @@ const solution2 = (str) => {
  * 先頭を大文字にする関数
  * @param {string} str 
  */
-const solution3 = (str) => {
+const solution4 = (str) => {
 	return str.split(" ")
 		.map(s => s.slice(0, 1).toUpperCase() + s.slice(1))
 		.join(" ");
@@ -35,7 +43,7 @@ const solution3 = (str) => {
  * 先頭を大文字にする関数
  * @param {string} str 
  */
-const solution4 = (str) => {
+const solution5 = (str) => {
 	return str.split(" ")
 		.map(s => s[0].toUpperCase() + s.slice(1))
 		.join(" ");
@@ -46,5 +54,6 @@ module.exports = {
 	solution1,
 	solution2,
 	solution3,
-	solution4
+	solution4,
+	solution5
 }

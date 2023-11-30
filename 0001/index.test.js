@@ -18,6 +18,10 @@ describe("0001のテスト", () => {
 		expect(index.solution4("abc def ghi")).toBe("Abc Def Ghi")
 	});
 
+	test("solution5のテスト", () => {
+		expect(index.solution5("abc def ghi")).toBe("Abc Def Ghi")
+	});
+
 });
 
 
