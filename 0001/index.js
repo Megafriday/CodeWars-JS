@@ -7,17 +7,16 @@ const data = "abc def ghi";   // 目標："Abc Def Ghi"
  * @param {string} str
  */
 const solution1 = (str) => {
-	return str.replace(/(^|\s)[a-z]/g, s => s.toUpperCase());
-};
-
-/**
- * 先頭を大文字にする関数
- * @param {string} str
- */
-const solution2 = (str) => {
 	return str.replace(/\b\w/g, s => s.toUpperCase());
 };
 
+/**
+ * 先頭を大文字にする関数 
+ * @param {string} str
+ */
+const solution2 = (str) => {
+	return str.replace(/(^|\s)[a-z]/g, s => s.toUpperCase());
+};
 
 /**
  * 先頭を大文字にする関数
