@@ -1,4 +1,7 @@
+// 0003
 // https://www.codewars.com/kata/52fba66badcd10859f00097e
+
+// 「This website is for losers LOL!」という文字列は「Ths wbst s fr lsrs LL!」になります。
 
 /**
  * 母音を無くす

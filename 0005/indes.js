@@ -1,4 +1,8 @@
+// 0005
 // https://www.codewars.com/kata/5259b20d6021e9e14c0010d4
+
+// "This is an example!" ==> "sihT si na !elpmaxe"
+// "double  spaces"      ==> "elbuod  secaps"
 
 /**
  * @param {string} str 

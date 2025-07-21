@@ -1,4 +1,4 @@
-const { domainName, domainName1, domainName2, domainName3, domainName4 } = require('./index');
+const { domainName, domainName1, domainName2, domainName3, domainName4, domainName5 } = require('./index');
 
 describe("0008のテスト", () => {
 	test("domainNameのテスト", () => {
@@ -39,6 +39,14 @@ describe("0008のテスト", () => {
 		expect(domainName4("www.xakep.ru")).toBe("xakep");
 		expect(domainName4("https://youtube.com")).toBe("youtube");
 		expect(domainName4("https://www.e0-4b07e.pro/archive/")).toBe("e0-4b07e");
+	});
+
+	test("domainName5のテスト", () => {
+		expect(domainName5("http://google.com")).toBe("google");
+		expect(domainName5("http://google.co.jp")).toBe("google");
+		expect(domainName5("www.xakep.ru")).toBe("xakep");
+		expect(domainName5("https://youtube.com")).toBe("youtube");
+		expect(domainName5("https://www.e0-4b07e.pro/archive/")).toBe("e0-4b07e");
 	});
 
 });

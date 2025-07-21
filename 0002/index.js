@@ -1,3 +1,4 @@
+// 0002
 // https://www.codewars.com/kata/515de9ae9dcfc28eb6000001
 
 const data = "abc";			// 目標：["ab", "c_"]

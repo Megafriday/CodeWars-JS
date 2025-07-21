@@ -1,3 +1,4 @@
+// 0009
 // toWeirdCase("String");		//=> returns "StRiNg"
 // toWeirdCase("Weird string case");	//=> returns "WeIrD StRiNg CaSe"
 
